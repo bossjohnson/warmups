@@ -1,0 +1,18 @@
+var array1 = [ 'cat', 'dog', 'fish' ];
+var array2 = [ 'lion', 'pointer', 'trout' ];
+
+var array3 = [ 'earth', 'jupiter', 'mars' ];
+var array4 = [ 'earth', 'jupiter', 'mars' ];
+
+
+function arrSimilar (arr1, arr2) {
+  if (arr1.length !== arr2.length) {
+    return false
+  }
+  for (var i = 0; i < arr1.length; i++) {
+    if (arr1[1] !== arr[2]) {
+      return false;
+    }
+  }
+  return true;
+}

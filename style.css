@@ -1,0 +1,44 @@
+#container {
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+}
+div {
+    border: 1px solid black;
+    position: relative;
+}
+div.small {
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+div.med {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+div.large {
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+}
+div.eyeball {
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 100%;
+    position: relative;
+    top: -20px;
+}
+svg {
+    display: inline-block;
+    float: left;
+}
+div.middle {
+  display: flex;
+  border: none;
+}
